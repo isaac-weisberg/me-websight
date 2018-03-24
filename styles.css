@@ -36,3 +36,6 @@ a:hover {
 a:active {
     color: black;   
 }
+.copy {
+    font-size: 30%;
+}
