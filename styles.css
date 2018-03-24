@@ -1,0 +1,38 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+.container {
+    max-width: 15cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo {
+    background: #FF819C;
+    max-width: 600px;
+}
+.logoTitle {
+    color: black;
+    text-align: justify;
+    font-style: italic;
+    font-size: 500%;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: black;   
+}
