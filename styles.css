@@ -26,15 +26,19 @@ body {
 }
 a:link {
     color: black;
+    word-wrap: break-word;
 }
 a:visited {
     color: black;
+    word-wrap: break-word;
 }
 a:hover {
     color: black;
+    word-wrap: break-word;
 }
 a:active {
     color: black;   
+    word-wrap: break-word;
 }
 .copy {
     font-size: 30%;
