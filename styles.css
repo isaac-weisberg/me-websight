@@ -19,6 +19,7 @@ body {
     background: #FF819C;
     color: black;
     max-width: 600px;
+    border-radius: 4px;
 }
 .logo:hover {
     color: #FFFFFF;
@@ -34,6 +35,7 @@ a:link {
     word-wrap: break-word;
     text-decoration: none;
     padding: 10px;
+    border-radius: 2px;
 }
 a:visited {
     color: black;
