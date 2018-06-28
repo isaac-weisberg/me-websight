@@ -31,6 +31,14 @@ body {
     font-style: italic;
     font-size: 500%;
 }
+.linksTitle {
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+.links {
+    line-height: 2.0em;
+}
 a {
     color: black;
     padding: 10px;
