@@ -19,7 +19,8 @@ body {
     background: #FF819C;
     color: black;
     max-width: 600px;
-    border-radius: 4px;
+    transition: background 0.5s, color 0.5s;
+    transition-timing-function: ease-in-out;
 }
 .logo:hover {
     color: #FFFFFF;
@@ -30,12 +31,17 @@ body {
     font-style: italic;
     font-size: 500%;
 }
-a:link {
+a {
     color: black;
-    word-wrap: break-word;
-    text-decoration: none;
     padding: 10px;
     border-radius: 2px;
+    background: #FFFFFF00;
+    transition: background 0.5s, color 0.5s, text-decoration 0.5s;
+    transition-timing-function: ease-in-out;
+}
+a:link {
+    word-wrap: break-word;
+    text-decoration: none;
 }
 a:visited {
     color: black;
