@@ -16,15 +16,15 @@ body {
 }
 .logo {
     cursor: pointer;
-    background: #FF819C;
+    background: #D5AE41;
     color: black;
     max-width: 600px;
     transition: background 0.5s, color 0.5s;
     transition-timing-function: ease-in-out;
 }
 .logo:hover {
-    color: #FFFFFF;
-    background: #b76e79;
+    color: #151105;
+    background: #bc9529;
 }
 .logoTitle {
     text-align: justify;
@@ -37,7 +37,7 @@ body {
     font-weight: bold;
 }
 .links {
-    line-height: 2.0em;
+    line-height: 2.2em;
 }
 a {
     color: black;
@@ -59,8 +59,7 @@ a:hover {
     color: black;
     word-wrap: break-word;
     text-decoration: underline;
-    background: #b76e79;
-    color: #FFFFFF;
+    background: #D5AE41;
 }
 a:active {
     color: black;   
