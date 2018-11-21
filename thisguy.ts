@@ -1,9 +1,5 @@
 const colorableElements: HTMLElement[] = [ ...document.getElementsByClassName("cow") ] as HTMLElement[]
 
-function getRandomInt(max) {
-    return Math.floor(Math.random() * Math.floor(max));
-}
-
 interface Styling {
     backgroundColor: string
     textColor: string
@@ -37,8 +33,17 @@ const themes: Styling[] = [
     }
 ]
 
+let index = 0
+
+function nextIndex(): number {
+    index++
+    if (index >= themes.length)
+        index = 0
+    return index
+}
+
 function nextStyling() {
-    const randomIndex = getRandomInt(themes.length)
+    const randomIndex = nextIndex()
     const styling = themes[randomIndex]
     colorableElements.forEach(element => {
         apply(styling, element)
