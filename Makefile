@@ -1,10 +1,17 @@
-default: all open ;
+FAT=thisguy.js
+MIN=thisguy.min.js
+TRASH=$(FAT) $(MIN)
+
+default: build minify open ;
 
 open:
 	open index.html
 
-all:
+build:
 	npx tsc
 
+minify:
+	npx uglify-es $(FAT) -o $(MIN)
+
 clean:
-	-rm -rf thisguy.js 
+	-rm -rf $(TRASH)
