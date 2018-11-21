@@ -1,3 +1,8 @@
+default: all open ;
+
+open:
+	open index.html
+
 all:
 	npx tsc
 
