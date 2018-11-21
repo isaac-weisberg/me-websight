@@ -4,6 +4,7 @@ body {
 }
 
 .bodyContainer {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     max-width: 600px;
@@ -11,7 +12,18 @@ body {
 }
 
 .titleContainer {
+    box-sizing: border-box;
     text-align: center;
     font-style: italic;
     font-size: 600%;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+a {
+    
 }
