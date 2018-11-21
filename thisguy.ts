@@ -17,7 +17,23 @@ function apply(styling: Styling, element: HTMLElement) {
 const themes: Styling[] = [
     {
         backgroundColor: "#FFD662",
-        textColor: ""
+        textColor: "#000000"
+    },
+    {
+        backgroundColor: "#E8B5CE",
+        textColor: "#000000"
+    },
+    {
+        backgroundColor: "#F0EAD6",
+        textColor: "#000000"
+    },
+    {
+        backgroundColor: "#006E6D",
+        textColor: "#FFFFFF"
+    },
+    {
+        backgroundColor: "#00A591",
+        textColor: "#FFFFFF"
     }
 ]
 
