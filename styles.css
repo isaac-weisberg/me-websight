@@ -21,6 +21,10 @@ body {
     cursor: pointer;
 }
 
+.titleContainer:hover {
+    filter: brightness(85%);
+}
+
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -60,6 +64,7 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
+    filter: brightness(85%);
 }
 
 .copy {
