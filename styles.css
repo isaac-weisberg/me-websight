@@ -45,7 +45,7 @@ a {
     word-wrap: break-word;
     background-color: #FFD662;
     padding: 10px;
-    margin: 2px;
+    margin: 2px 0px;
     border-radius: 2px;
 }
 
@@ -65,4 +65,11 @@ a:hover {
     position: fixed;
     bottom: 4px;
     font-size: 0.8em;
+    padding: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0px;
+    }
 }
