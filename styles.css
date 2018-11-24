@@ -92,4 +92,8 @@ a:hover {
     body {
         margin: 0px;
     }
+
+    .linksContainer {
+        margin-bottom: 50px;
+    }
 }
