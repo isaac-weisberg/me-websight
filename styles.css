@@ -25,6 +25,20 @@ body {
     filter: brightness(85%);
 }
 
+.nameContainer {
+    font-size: 190%;
+    align-self: flex-end;
+    text-align: end;
+    margin: 0px 2px;
+}
+
+.subtitleContainer {
+    font-size: 130%;
+    align-self: flex-end;
+    text-align: end;
+    margin: 0px 2px;
+}
+
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
