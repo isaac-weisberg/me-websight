@@ -17,7 +17,8 @@ body {
     text-align: center;
     font-style: italic;
     font-size: 600%;
-    background-color: #FFD662;
+    color: white;
+    background-color: #9E1030;
     cursor: pointer;
 }
 
@@ -59,10 +60,10 @@ body {
 
 a {
     box-sizing: border-box;
-    color: black;
+    color: white;
     text-decoration: none;
     word-wrap: break-word;
-    background-color: #FFD662;
+    background-color: #9E1030;
     padding: 10px;
     margin: 2px 0px;
     border-radius: 2px;

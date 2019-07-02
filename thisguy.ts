@@ -12,23 +12,23 @@ function apply(styling: Styling, element: HTMLElement) {
 
 const themes: Styling[] = [
     {
-        backgroundColor: "#FFD662",
-        textColor: "#000000"
-    },
-    {
-        backgroundColor: "#E8B5CE",
-        textColor: "#000000"
-    },
-    {
-        backgroundColor: "#F0EAD6",
-        textColor: "#000000"
-    },
-    {
-        backgroundColor: "#006E6D",
+        backgroundColor: "#9B1B30",
         textColor: "#FFFFFF"
     },
     {
-        backgroundColor: "#00A591",
+        backgroundColor: "#2A4B7C",
+        textColor: "#FFFFFF"
+    },
+    {
+        backgroundColor: "#F5D6C6",
+        textColor: "#000000"
+    },
+    {
+        backgroundColor: "#CE5B78",
+        textColor: "#FFFFFF"
+    },
+    {
+        backgroundColor: "#FA9A85",
         textColor: "#FFFFFF"
     }
 ]
