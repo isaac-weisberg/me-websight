@@ -2,19 +2,14 @@ body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 1em;
-    color: white;
-    background-color: #222222;
 }
 
 .bodyContainer {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
 }
 
-.titleContainer {
+.headerContainer {
     box-sizing: border-box;
     text-align: center;
     font-style: italic;
@@ -24,11 +19,24 @@ body {
     cursor: pointer;
 }
 
-.titleContainer:hover {
+.headerContainer:hover {
     filter: brightness(85%);
 }
 
-.nameContainer {
+.mainContentContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.subHeaderNameContainer {
+    font-size: 300%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.titleContainer {
     font-size: 190%;
     align-self: flex-end;
     text-align: end;
