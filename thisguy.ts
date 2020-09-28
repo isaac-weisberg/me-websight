@@ -1,5 +1,5 @@
-const bgColorableElements: HTMLElement[] = [ ...document.getElementsByClassName("cow") ] as HTMLElement[]
-const borderColorableElements: HTMLElement[] = [...document.getElementsByClassName("bow") ] as HTMLElement[]
+const bgColorableElements = [ ...document.getElementsByClassName("cow") ] as HTMLElement[]
+const borderColorableElements = [...document.getElementsByClassName("bow") ] as HTMLElement[]
 
 interface Styling {
     backgroundColor: string
