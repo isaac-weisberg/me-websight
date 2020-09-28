@@ -1,13 +1,9 @@
-const colorableElements: HTMLElement[] = [ ...document.getElementsByClassName("cow") ] as HTMLElement[]
+const bgColorableElements: HTMLElement[] = [ ...document.getElementsByClassName("cow") ] as HTMLElement[]
+const borderColorableElements: HTMLElement[] = [...document.getElementsByClassName("bow") ] as HTMLElement[]
 
 interface Styling {
     backgroundColor: string
     textColor: string
-}
-
-function apply(styling: Styling, element: HTMLElement) {
-    element.style.backgroundColor = styling.backgroundColor
-    element.style.color = styling.textColor
 }
 
 const themes: Styling[] = [
@@ -48,8 +44,13 @@ function initialStyling() {
 }
 
 function applyTheme(styling: Styling) {
-    colorableElements.forEach(element => {
-        apply(styling, element)
+    bgColorableElements.forEach(element => {
+        element.style.backgroundColor = styling.backgroundColor
+        element.style.color = styling.textColor
+    })
+
+    borderColorableElements.forEach(el => {
+        el.style.borderColor = styling.backgroundColor
     })
 }
 
