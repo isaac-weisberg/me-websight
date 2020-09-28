@@ -12,15 +12,11 @@ function apply(styling: Styling, element: HTMLElement) {
 
 const themes: Styling[] = [
     {
-        backgroundColor: "#F5D6C6",
-        textColor: "#000000"
-    },
-    {
-        backgroundColor: "#2A4B7C",
+        backgroundColor: "#9B1B30",
         textColor: "#FFFFFF"
     },
     {
-        backgroundColor: "#CE5B78",
+        backgroundColor: "#E08119",
         textColor: "#FFFFFF"
     },
     {
@@ -28,7 +24,11 @@ const themes: Styling[] = [
         textColor: "#FFFFFF"
     },
     {
-        backgroundColor: "#FA9A85",
+        backgroundColor: "#F96714",
+        textColor: "#FFFFFF"
+    },
+    {
+        backgroundColor: "#264E36",
         textColor: "#FFFFFF"
     }
 ]

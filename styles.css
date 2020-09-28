@@ -23,33 +23,6 @@ body {
     filter: brightness(85%);
 }
 
-.mainContentContainer {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    margin: 8px;
-}
-
-.subHeaderNameContainer {
-    font-size: 300%;
-    text-align: center;
-    margin: 0px auto;
-}
-
-.titleContainer {
-    font-size: 190%;
-    align-self: flex-end;
-    text-align: end;
-    margin: 0px 2px;
-}
-
-.subtitleContainer {
-    font-size: 130%;
-    align-self: flex-end;
-    text-align: end;
-    margin: 0px 2px;
-}
-
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -60,36 +33,37 @@ body {
                                     supported by Chrome and Opera */
 }
 
-.linksContainer {
+.featureContainer {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     margin: 2px 0px;
 }
 
-a {
+.feature {
     box-sizing: border-box;
-    color: white;
-    text-decoration: none;
-    word-wrap: break-word;
-    background-color: #9E1030;
     padding: 10px;
     margin: 2px 0px;
-    border-radius: 2px;
+    text-decoration: none;
+    word-wrap: break-word;
 }
 
-a:active {
-    text-decoration: underline;
+.featureKey {
+    display: inline-block;
+    font-weight: 600;
 }
 
-a:visited {
-    text-decoration: underline;
+.featureValue {
+    display: inline-block;
 }
 
-a:hover {
-    text-decoration: underline;
-    filter: brightness(85%);
+.featureSecret {
+    opacity: 0;
+}
+
+.featureSecret:hover {
+    opacity: 100;
 }
 
 .copy {
@@ -104,7 +78,8 @@ a:hover {
         margin: 0px;
     }
 
-    .linksContainer {
+    .featureContainer {
+        margin-left: 8px;
         margin-bottom: 50px;
     }
 }
