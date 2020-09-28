@@ -66,6 +66,41 @@ body {
     opacity: 100;
 }
 
+.linkHub {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    margin: 4px 0px;
+}
+
+.linkButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #9E1030;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    margin: 0px 3px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .copy {
     position: fixed;
     bottom: 4px;
@@ -78,8 +113,15 @@ body {
         margin: 0px;
     }
 
+    .bodyContainer {
+        margin-bottom: 50px;
+    }
+
     .featureContainer {
         margin-left: 8px;
-        margin-bottom: 50px;
+    }
+
+    .linkHub {
+        margin-left: 6px;
     }
 }
