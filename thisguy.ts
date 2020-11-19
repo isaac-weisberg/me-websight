@@ -6,26 +6,27 @@ interface Styling {
     textColor: string
 }
 
+// Thanks to https://www.w3schools.com/colors/ for the colors
 const themes: Styling[] = [
     {
-        backgroundColor: "#9B1B30",
+        backgroundColor: "#FFD662",
+        textColor: "#000000"
+    },
+    {
+        backgroundColor: "#00539C",
         textColor: "#FFFFFF"
     },
     {
-        backgroundColor: "#E08119",
+        backgroundColor: "#CD212A",
         textColor: "#FFFFFF"
     },
     {
-        backgroundColor: "#577284",
-        textColor: "#FFFFFF"
+        backgroundColor: "#56C6A9",
+        textColor: "#000000"
     },
     {
-        backgroundColor: "#F96714",
-        textColor: "#FFFFFF"
-    },
-    {
-        backgroundColor: "#264E36",
-        textColor: "#FFFFFF"
+        backgroundColor: "#F7CAC9",
+        textColor: "#000000"
     }
 ]
 
