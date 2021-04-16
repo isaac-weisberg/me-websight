@@ -23,6 +23,10 @@ body {
     filter: brightness(85%);
 }
 
+.feature:hover {
+    filter: brightness(85%);
+}
+
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -49,6 +53,10 @@ body {
     background-color: #FFD662;
     text-decoration: none;
     word-wrap: break-word;
+}
+
+.feature:hover {
+    filter: brightness(85%);
 }
 
 .featureKey {
