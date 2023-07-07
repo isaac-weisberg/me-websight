@@ -30,7 +30,7 @@ const themes: Styling[] = [
     }
 ]
 
-let index = 0
+let index = 3
 
 function nextIndex(): number {
     index++

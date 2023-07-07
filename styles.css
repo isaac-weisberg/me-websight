@@ -53,6 +53,7 @@ body {
     background-color: #FFD662;
     text-decoration: none;
     word-wrap: break-word;
+    cursor: pointer;
 }
 
 .feature:hover {
@@ -117,7 +118,7 @@ a:hover {
     }
 
     .bodyContainer {
-        margin-bottom: 50px;
+        margin-bottom: 150px;
     }
 
     .featureContainer {
