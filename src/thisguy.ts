@@ -9,28 +9,36 @@ interface Styling {
 // Thanks to https://www.w3schools.com/colors/ for the colors
 const themes: Styling[] = [
     {
-        backgroundColor: "#FFD662",
+        backgroundColor: "#F5DF4D",
         textColor: "#000000"
     },
     {
-        backgroundColor: "#00539C",
+        backgroundColor: "#363945",
         textColor: "#FFFFFF"
     },
     {
-        backgroundColor: "#CD212A",
+        backgroundColor: "#9BB7D4",
+        textColor: "#000000"
+    },
+    {
+        backgroundColor: "#FDAC53",
         textColor: "#FFFFFF"
     },
     {
-        backgroundColor: "#56C6A9",
+        backgroundColor: "#0072B5",
+        textColor: "#FFFFFF"
+    },
+    {
+        backgroundColor: "#A0DAA9",
         textColor: "#000000"
     },
     {
-        backgroundColor: "#F7CAC9",
-        textColor: "#000000"
+        backgroundColor: "#939597",
+        textColor: "#FFFFFF"
     }
 ]
 
-let index = 3
+let index = 0
 
 function nextIndex(): number {
     index++

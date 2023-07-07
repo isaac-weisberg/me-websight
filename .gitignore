@@ -1,3 +1,5 @@
 node_modules/
 thisguy.js
 thisguy.min.js
+build
+temp
