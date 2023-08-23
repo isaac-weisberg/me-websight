@@ -1,42 +1,60 @@
 const bgColorableElements = [ ...document.getElementsByClassName("cow") ] as HTMLElement[]
 const borderColorableElements = [...document.getElementsByClassName("bow") ] as HTMLElement[]
 
-interface Styling {
-    backgroundColor: string
-    textColor: string
-}
+type Styling = [string, string, string]
 
 // Thanks to https://www.w3schools.com/colors/ for the colors
 const themes: Styling[] = [
-    {
-        backgroundColor: "#F5DF4D",
-        textColor: "#000000"
-    },
-    {
-        backgroundColor: "#363945",
-        textColor: "#FFFFFF"
-    },
-    {
-        backgroundColor: "#9BB7D4",
-        textColor: "#000000"
-    },
-    {
-        backgroundColor: "#FDAC53",
-        textColor: "#FFFFFF"
-    },
-    {
-        backgroundColor: "#0072B5",
-        textColor: "#FFFFFF"
-    },
-    {
-        backgroundColor: "#A0DAA9",
-        textColor: "#000000"
-    },
-    {
-        backgroundColor: "#939597",
-        textColor: "#FFFFFF"
-    }
+    [
+        "FFD662",
+        "000000",
+        'DDB440'
+    ],
+    [
+        "00539C",
+        "FFFFFF",
+        '00317A'
+    ],
+    [
+        "F7CAC9",
+        "000000",
+        'D5A8A7'
+    ],
+    [
+        "00758F",
+        "FFFFFF",
+        '00536D'
+    ],
+    [
+        "56C6A9",
+        "000000",
+        '34A487'
+    ],
+    [
+        "FFA500",
+        "FFFFFF",
+        'DD8300'
+    ],
+    [
+        "CD212A",
+        "000000",
+        'AB0008'
+    ],
+    [
+        "E8B5CE",
+        "000000",
+        'C693AC'
+    ],
+    [
+        "F0EAD6",
+        "000000",
+        'D0C8B4'
+    ]
 ]
+
+function addingPound(str: string): string {
+    return `#${str}`
+}
 
 let index = 0
 
@@ -54,12 +72,12 @@ function initialStyling() {
 
 function applyTheme(styling: Styling) {
     bgColorableElements.forEach(element => {
-        element.style.backgroundColor = styling.backgroundColor
-        element.style.color = styling.textColor
+        element.style.backgroundColor = addingPound(styling[0])
+        element.style.color = addingPound(styling[1])
     })
 
     borderColorableElements.forEach(el => {
-        el.style.borderColor = styling.backgroundColor
+        el.style.borderColor = addingPound(styling[0])
     })
 }
 
