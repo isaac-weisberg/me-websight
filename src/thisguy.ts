@@ -56,7 +56,7 @@ function addingPound(str: string): string {
     return `#${str}`
 }
 
-let index = 0
+let index = Math.round((themes.length - 1) * Math.random())
 
 function nextIndex(): number {
     index++

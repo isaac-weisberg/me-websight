@@ -17,6 +17,7 @@ body {
     color: black;
     background-color: #FFD662;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .headerContainer:hover {
